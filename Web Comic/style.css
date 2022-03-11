@@ -1,0 +1,153 @@
+body {
+  background-image: url(images/School_bus.jpg);
+  background-size: 30%;
+  background-color: rgb(250, 250, 250);
+  font-family: "Comic Sans MS", sans-serif;
+  line-height: 1.2;
+  text-align: center;
+  padding: 40px 0 0 20px;
+}
+header {
+  width: 30%;
+  padding: 0.2em 1em;
+  margin: auto;
+  border: 0.2em solid black;
+  border-radius: 10px;
+  font-family:  Georgia, serif;
+  font-size: 1.2em;
+  text-align: justify;
+  text-align: center;
+  background-image: url(images/Bart1.jpg);
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  background-size: 5%;
+  position: sticky;
+}
+  h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ff0000;   
+  }
+
+  .title {
+    color: #0011ff;
+  }
+  
+  .comic {
+    max-width: 826px;
+    margin: 60px auto 0;
+  }
+  .scene{
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    background: white;
+    margin: 8px;
+    display: inline-block;
+    position: relative;
+  }
+  .scene img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .caption {
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: auto;
+    top: 0;
+  }
+  .caption.bottom {
+    bottom: 0;
+    top:auto;
+    background: #ddec06;
+    border-top: 2px solid black;
+  }
+  .caption.bottom1 {
+    bottom: 0;
+    top:auto;
+    background: #e9b171;
+    border-top: 2px solid black;
+  }
+  .caption.top {
+    top: 0;
+    background: #e2e971;
+    border-bottom: 2px solid black;
+  }
+  .caption.top1 {
+    top: 0;
+    background: #e9b171;
+    border-bottom: 2px solid black;
+  }
+  .caption.top2 {
+    top: 0;
+    background: #3b3b3a;
+    border-bottom: 2px solid black;
+  }
+
+  .speech {
+    width: 40%;
+    border-radius:50%;
+    border: 2px solid black;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    background: snow ;
+    padding: 20px;
+    top: -15px;
+    text-align: center;
+  }
+  /* Advanced CSS for the speech pointer */
+  .speech:after {
+    border-color: snow transparent;
+    border-style: solid;
+    border-width: 13px 13px 0;
+    bottom: -11px;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left:-14px;
+    position: absolute;
+    width: 0;
+  }
+  .speech:before {
+    border-color: black transparent;
+    border-style: solid;
+    border-width: 16px 16px 0;
+    bottom: -15px;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left:-17px;
+    position: absolute;
+    width: 0;
+  }
+  .speech.left {
+    left:-15px;
+  }
+  .speech.left1 {
+    left:-20px;
+    top: -10px;
+  }
+  .speech.left2 {
+    left:-30px;
+    top: 10px;
+    border-radius:20%;
+  }
+  .speech.right {
+    right:-15px;
+  }
+  .speech.right1 {
+    right:-40px;
+    top: -50px;
+  }
+  .speech.right2 {
+    right: -20px;
+    top: -20px;
+  }
+  footer {
+    clear: both;
+  }
